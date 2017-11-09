@@ -1,7 +1,9 @@
 # Teste para Vaga de Desenvolvedor Front-End na GoMakers
 
-Esse é um repositório com as regras para criação do projeto para vaga de desenvolvedor front-end na GoMakers.
-A vaga é para trabalho presencial na GoMakers, localizada na cidade de Valinhos/Campinas e Região.
+> [![Logo GoMakers](https://gomakers.blob.core.windows.net/gomakers/gomakers_logo.png)](http://www.gomakers.com.br)
+> Esse é um repositório com as regras para criação do projeto para vaga de desenvolvedor front-end na GoMakers.
+>
+> A vaga é para trabalho presencial na GoMakers, localizada na cidade de Valinhos/Campinas e Região.
 
 # Instruções
 Faça um fork deste repositório;
