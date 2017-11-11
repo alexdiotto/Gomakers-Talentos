@@ -58,7 +58,7 @@ Se você é um Desenvolvedor FrontEnd e quer causar impacto na vida das pessoas co
 
 ### Para visualizar o [projeto front-end-teste no zeplin](https://url-zeplin):
 1. Acesse [https://url-zeplin](https://url-zeplin).
-2. Logue-se com o usuário: **vivadecorateste**, senha: **vivadecorateste**.
+2. Logue-se com o usuário: **gomakersteste**, senha: **gomakersteste**.
 3. Navegue entre os designs pelo menu esquerdo, baixe imagens do design no menu "Assets" do lado direito.
 
 ## Submissão
