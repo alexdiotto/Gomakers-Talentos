@@ -54,11 +54,11 @@ Se você é um Desenvolvedor FrontEnd e quer causar impacto na vida das pessoas co
 
 ## Material:
 
-* Todos os layouts necessários estão disponíveis no [zeplin, projeto front-end-teste](https://url-zeplin)
+* Todos os layouts necessários estão disponíveis no [zeplin, projeto front-end-teste](https://)
 
-### Para visualizar o [projeto front-end-teste no zeplin](https://url-zeplin):
-1. Acesse [https://url-zeplin](https://url-zeplin).
-2. Logue-se com o usuário: **gomakersteste**, senha: **gomakersteste**.
+### Para visualizar o [projeto front-end-teste no zeplin](https://zpl.io/2jZ1XKW):
+1. Acesse [https://zpl.io/2jZ1XKW](https://zpl.io/2jZ1XKW).
+2. Logue-se com o usuário: gomakersteste, senha: gomakersteste
 3. Navegue entre os designs pelo menu esquerdo, baixe imagens do design no menu "Assets" do lado direito.
 
 ## Submissão
