@@ -54,7 +54,7 @@ Se você é um Desenvolvedor FrontEnd e quer causar impacto na vida das pessoas co
 
 ## Material:
 
-* Todos os layouts necessários estão disponíveis no [zeplin, projeto front-end-teste](https://)
+* Todos os layouts necessários estão disponíveis no [zeplin, projeto front-end-teste](https://zpl.io/2jZ1XKW)
 
 ### Para visualizar o [projeto front-end-teste no zeplin](https://zpl.io/2jZ1XKW):
 1. Acesse [https://zpl.io/2jZ1XKW](https://zpl.io/2jZ1XKW).
