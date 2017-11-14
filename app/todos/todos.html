@@ -1,0 +1,10 @@
+<div>
+	<img data-ng-if="votacao == true" class="image restaurant" ng-src="{{imagemRotativa}}" alt="{{nomeDoPrato}}" on-error-src="imagens/resources/img1.jpg">
+	<div class="name espacamentoNome">{{nomeDoPrato}}</div>
+
+	<div class="conteudoButton">
+		<button data-ng-if="votacao == true" type="button" class="btn" data-ng-click="linkesDislikes(nomeDoPrato, 'likes')"><strong class="gostei">GOSTEI</strong></button>	
+		<button data-ng-if="votacao == true" type="button" class="btn Button-copiar-2" data-ng-click="linkesDislikes(nomeDoPrato, 'dislikes')"><strong class="no-gostei">NÃO GOSTEI</strong></button>
+		<button data-ng-if="voltarVotar == true" type="button" class="btn" data-ng-click="votarNovamente()"><strong class="votarNovamente">Votar Novamente!</strong></button>
+	</div>
+</div>

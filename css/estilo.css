@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800');
+ 
+body {
+    width: 1512px;
+    height: 1175px;
+    background-color: #fe6044;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMC4xJSIgeTE9IjEwNS45JSIgeDI9Ijg5LjklIiB5Mj0iLTUuOSUiPjxzdG9wIHN0b3AtY29sb3I9IiNmZDg0M2YiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmNDc0NyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuODEwOTk5OTk5OTk5OTk5OSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    background-image: -webkit-gradient(linear, 10.1% 105.9%, 89.9% -5.9%,color-stop(0, rgb(253, 132, 63)),color-stop(0.811, rgb(255, 71, 71)));
+    /* Android 2.3 */
+    background-image: -webkit-linear-gradient(56deg,rgb(253, 132, 63) 0%,rgb(255, 71, 71) 81.1%);
+    /* IE10+ */
+    background-image: linear-gradient(34deg,rgb(253, 132, 63) 0%,rgb(255, 71, 71) 81.1%);
+    background-image: -ms-linear-gradient(56deg,rgb(253, 132, 63) 0%,rgb(255, 71, 71) 81.1%);
+}
+ 
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+    body {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffff4747",endColorstr="#fffd843f",GradientType=0);
+    }
+}
+
+button {
+  /*width: 127px;*/
+  height: 68px;
+  border-radius: 15px !important;
+  background-color: #5ce66b;
+  box-shadow: 0px 15px 38px 0 rgba(156, 36, 18, 0.28);
+  cursor: pointer;
+  margin: 1%;
+}
+
+.container{
+	/* margin-left: 364px; */
+	/* margin-right: 398px; */
+}
+
+.Almoo-da-Firrrrrrmaaa {
+  height: 34px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32.2px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 63px;
+  margin-bottom: 86px;
+}
+
+.todos {
+/*   width: 92px;
+  height: 14px; */
+  font-family: Montserrat;
+  font-size: 20.6px;
+  font-weight: bold;
+  letter-spacing: 4.9px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.maisVotados {
+/*   width: 154px;
+  height: 14px; */
+  font-family: Montserrat;
+  font-size: 20.6px;
+  font-weight: bold;
+  letter-spacing: 4.9px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.menosVotados {
+/*   width: 151px;
+  height: 14px; */
+  font-family: Montserrat;
+  font-size: 20.6px;
+  font-weight: bold;
+  letter-spacing: 4.9px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.restaurant {
+/*   width: 644px; */
+  height: 435px;
+  border-radius: 6px;
+  background-color: #1a1a1a;
+  border: solid 10px #ffffff;
+}
+
+.image {
+  /* width: 636.4px; */
+  margin-top: 1%;
+  height: 420px;
+  -webkit-box-shadow: -12px 65px 75px -57px rgba(135,22,22,0.6);
+  -moz-box-shadow: -12px 65px 75px -57px rgba(135,22,22,0.6);
+  box-shadow: -12px 65px 75px -57px rgba(135,22,22,0.6);
+}
+
+.shadow {
+  width: 819px;
+  height: 121px;
+  opacity: 0.66;
+  background-color: #871616;
+}
+
+.Button-copiar-2 {
+  width: 168px;
+  height: 68px;
+  border-radius: 15px;
+  background-color: #a9150b;
+}
+
+.no-gostei {
+  width: 106px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.name {
+  /* width: 74px; */
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 24.7px;
+  font-weight: bold;
+  line-height: 1.96;
+  text-align: center;
+  color: #ffffff;	
+}
+
+.espacamentoNome {
+  /* width: 74px; */
+  margin-top: 2%;
+}
+
+
+.gostei {
+  width: 62px;
+  height: 12px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #414141;
+}
+.votarNovamente {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #414141;
+}
+
+.conteudoButton{
+	margin-top: 3.5%;
+	margin-bottom: 200px;
+}
+
+.nav-link {
+    padding: 0;
+}
+.nav-item{
+	margin: 0 5%;
+}
+
+.thumb {
+  margin-top: 2%;
+  width: 241px;
+  height: 161px;
+   -webkit-box-shadow: -12px 65px 75px -57px rgba(135,22,22,0.6);
+  -moz-box-shadow: -12px 65px 75px -57px rgba(135,22,22,0.6);
+  box-shadow: -12px 65px 75px -57px rgba(135,22,22,0.6);
+}
+
+.thumb-box {
+  width: 246px;
+  height: 166px;
+  border-radius: 6px;
+  background-color: #1a1a1a;
+  border: solid 10px #ffffff;
+}
+
+.blocoImagens {
+	margin: 0 0 5% 0;
+}
+
+.imagensDivisao#caption {
+	position: relative;
+}
+.imagensDivisao#caption .text {
+	position: absolute;		
+	top: 42%;
+    left: 53%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;			
+}
+.imagensDivisao#caption .text h1 {		
+	margin: 0;		
+	color: white;
+}
+.imagensDivisao#caption:hover .text {
+	opacity: 1;
+	
+}
+.imagensDivisao#caption:hover img {
+	-webkit-filter: sepia(30%);
+	background-color: rgba(255, 71, 71, 1) !important;
+	opacity: 0.7;
+}
+
+.menu-effect a {
+	color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 21px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.35em;
+    width: 18%;
+    right: 1%;
+}
+
+.menu-effect a:hover::after, .menu-effect a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.menu-effect a::after {
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    width: 164px;
+    height: 5px;
+    background: #ffc10e;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.card-imagens{
+	width: 66%;
+}
+
+.totalRates {
+  height: auto;
+  font-family: Montserrat;
+  font-size: 24.7px;
+  font-weight: bold;
+  line-height: 1.96;
+  text-align: center;
+  color: #ffffff;
+}

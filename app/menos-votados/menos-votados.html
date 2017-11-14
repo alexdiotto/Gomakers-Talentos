@@ -1,0 +1,16 @@
+<div class="card-imagens">
+  <div class="row">
+    <div class="col-md-4 col-sm-12 blocoImagens" data-ng-repeat="(key, value) in dadosMenosVotados | orderBy:'-dislikes'">
+
+		<div class="imagensDivisao" id="caption">
+			<span class="text">
+				<div class="totalRates">{{value.dislikes}} Votos</div>
+			</span>
+			<img ng-src="{{value.url}}" class="thumb thumb-box" alt="{{value.name}}" on-error-src="imagens/resources/img1.jpg">
+			<div class="name">{{value.name}}</div>
+		</div>
+
+    </div>
+  </div>
+</div>
+
