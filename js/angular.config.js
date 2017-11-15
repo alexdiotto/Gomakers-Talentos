@@ -5,7 +5,6 @@ angular.
         $locationProvider,
         $routeProvider
     ) {
-
         $locationProvider.html5Mode(false);
         $locationProvider.hashPrefix('!');
         $routeProvider.
@@ -16,11 +15,11 @@ angular.
             when('/maisvotados/', {
                 templateUrl: 'app/mais-votados/mais-votados.html',
                 controller: 'maisvotadoJsController'
-            }).  
+            }).
             when('/menosvotados/', {
                 templateUrl: 'app/menos-votados/menos-votados.html',
                 controller: 'menosvotadoJsController'
-            }).           
+            }).
             otherwise({
                 redirectTo: '/'
             });

@@ -1,16 +1,17 @@
-<div class="card-imagens">
-  <div class="row">
-    <div class="col-md-4 col-sm-12 blocoImagens" data-ng-repeat="(key, value) in dadosMenosVotados | orderBy:'-dislikes'">
-
-		<div class="imagensDivisao" id="caption">
-			<span class="text">
-				<div class="totalRates">{{value.dislikes}} Votos</div>
-			</span>
-			<img ng-src="{{value.url}}" class="thumb thumb-box" alt="{{value.name}}" on-error-src="imagens/resources/img1.jpg">
-			<div class="name">{{value.name}}</div>
+<div class="row justify-content-center">
+	<div class="col-sm-12 col-md-10 col-lg-9 col-xl-8">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-lg-4	col-xl-4 paddingImagem" align="center" data-ng-repeat="(key, value) in dadosMenosVotados | orderBy:'-dislikes'">
+				<figure class="figure">
+					<div class="thumb-box img-hover">
+					  	<img ng-src="{{value.url}}" class="figure-img img-fluid rounded img-responsive transition thumb"  alt="{{value.name}}" on-error-src="imagens/resources/img1.jpg">
+					    <div class="text-view transition text-center">
+			                <p>{{value.dislikes}} Votos</p>
+			            </div>
+		        	</div>
+				  <figcaption class="figure-caption name">{{value.name}}</figcaption>
+				</figure>
+			</div>
 		</div>
-
-    </div>
-  </div>
+	</div>
 </div>
-
