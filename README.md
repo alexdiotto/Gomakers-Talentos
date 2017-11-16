@@ -19,10 +19,9 @@ Nós verdadeiramente acreditamos que um time de sucesso é fundamental para conseg
 Se você é um Desenvolvedor FrontEnd e quer causar impacto na vida das pessoas com seu trabalho, então siga as instruções abaixo:
 
 # Instruções
-1. Faça um fork deste repositório;
-2. Implemente o HTML/CSS da tela com base no layout disponível;
-3. Para a interação e navegação das telas utilize angularjs;
-4. Após terminar seu teste submeta um pull request e aguarde seu feedback.
+1. Implemente o HTML/CSS da tela com base no layout disponível;
+2. Para a interação e navegação das telas utilize angularjs;
+3. Após terminar seu teste suba em seu GitHub e envie um e-mail para alex@gomakers.com.br solicitando seu feedback.
 
 * **Importante:** A url da página não pode ser recarregada em momento algum.
 
@@ -61,9 +60,9 @@ Se você é um Desenvolvedor FrontEnd e quer causar impacto na vida das pessoas co
 2. Logue-se com o usuário: gomakersteste, senha: gomakersteste
 3. Navegue entre os designs pelo menu esquerdo, baixe imagens do design no menu "Assets" do lado direito.
 
-## Submissão
+1. Implemente o HTML/CSS da tela com base no layout disponível;
+2. Para a interação e navegação das telas utilize angularjs;
+3. Após terminar seu teste suba em seu GitHub e envie um e-mail para alex@gomakers.com.br solicitando seu feedback.
 
-Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e depois envie-nos o pull request.
-Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
 **Boa sorte e aguarde nosso convite para um café!**
