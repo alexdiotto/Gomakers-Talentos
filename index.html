@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Almoço da Firma</title>
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="Teste, Vaga, Desenvolvedor, Front-End, Angularjs">
+    <meta name="description" content="Projeto de teste para vaga de desenvolvedor front-end na GoMakers.">
+    <meta name="author" content="Waldir Mauricio Junior">
+    <meta name="robots" content="index,follow">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.min.css">
+</head>
+<body data-ng-app="almocoAPP">
+
+	<div class="container" data-ng-controller="principalController">
+		<div class="row justify-content-center">
+			<div class="col-12">
+
+				<header>
+					<div class="row">
+						<div class="col">
+							<h1 class="Almoo-da-Firrrrrrmaaa">Almoço da Firrrrrrmaaa!</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<ul class="nav justify-content-center menu-hover-lines">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#!/">Todos</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#!/maisvotados">+ Votados</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#!/menosvotados">- Votados</a>
+							  </li>
+							</ul>
+						</div>
+					</div>
+
+				</header>
+
+				<section ng-view></section>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/sweetalert/src/sweetalert.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/popper.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+
+	<script src="js/angular.module.js"></script>
+	<script src="js/angular.config.js"></script>
+
+	<script type="text/javascript" src="app/todos/todos.controller.js"></script>
+	<script type="text/javascript" src="app/mais-votados/mais-votados.controller.js"></script>
+	<script type="text/javascript" src="app/menos-votados/menos-votados.controller.js"></script>
+
+</body>
+</html>

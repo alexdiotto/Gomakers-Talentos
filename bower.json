@@ -1,0 +1,23 @@
+{
+  "name": "almoco-da-firma",
+  "homepage": "https://github.com/waldirjunior/Gomakers-Talentos",
+  "authors": [
+    "Waldir Junior <wmauriciojr@gmail.com>"
+  ],
+  "description": "projeto de teste para vaga de desenvolvedor front-end na GoMakers",
+  "main": "js/main.js",
+  "keywords": [
+    "almoco",
+    "da",
+    "firma"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,16 @@
+<div class="row">
+	<div class="col" align="center">
+
+		<figure class="figure">
+		  <img data-ng-if="votacao == true" ng-src="{{imagemRotativa}}" class="image restaurant figure-img img-fluid rounded" alt="{{nomeDoPrato}}" on-error-src="imagens/resources/img1.jpg">
+		  <figcaption class="figure-caption name">{{nomeDoPrato}}</figcaption>
+		</figure>
+
+		<div class="group-btns" align="center">
+			<button class="btn" data-ng-if="votacao == true" data-ng-click="linkesDislikes(nomeDoPrato, 'likes')"><strong class="gostei">Gostei</strong></button>
+			<button class="btn Button-copiar-2" data-ng-if="votacao == true" data-ng-click="linkesDislikes(nomeDoPrato, 'dislikes')"><strong class="no-gostei">Não Gostei</strong></button>
+			<button data-ng-if="voltarVotar == true" type="button" class="btn novamente" data-ng-click="votarNovamente()"><strong class="no-gostei">Votar Novamente!</strong></button>
+		</div>
+
+	</div>
+</div>
